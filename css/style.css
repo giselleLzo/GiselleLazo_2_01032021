@@ -1,11 +1,11 @@
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 1em;
     margin: 0;
     color: #000;
 }
 
 h1 {
+    font-size: 0.9em;
     font-weight: bold;
 }
 
@@ -14,12 +14,17 @@ h2 {
     font-weight: bold;
 }
 
+p {
+    font-size: 0.6em;
+}
+
 /******* HEADER *******/
 
 header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 #logo {
@@ -27,7 +32,7 @@ header {
 }
 
 nav {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 nav ul {
@@ -45,7 +50,7 @@ a {
 }
 
 a:hover {
-    padding-top: 10px;
+    padding-top: 30px;
     color: #0065FC;
     border-top: 1.5px solid;
 }
