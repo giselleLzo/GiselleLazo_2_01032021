@@ -14,6 +14,11 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+	font-size: 0.6em;
+	font-weight: bold;
+}
+
 p {
     font-size: 0.6em;
 }
@@ -330,3 +335,66 @@ aside .review {
     display: flex;
 	flex-direction: column;
 }
+
+/******* ACTIVITIES SECTION *******/
+
+#activities {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px 40px;
+}
+
+#places {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+#places h3 {
+	padding-left: 15px;
+}
+
+.shadow {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 3px 3px 10px #ccc;
+	margin-right: 40px;
+}
+
+.shadow img {
+	object-fit: cover;
+	width: 100%;
+	height: 300px;	
+	border-radius: 20px 20px 0 0;
+}
+
+.city {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 50%;
+	margin-right: 40px;
+}
+
+.box {
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 3px 3px 10px #ccc;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+.box img {
+	object-fit: cover;
+	width: 100%;
+	height: 130px;
+	border-radius: 20px 20px 0 0;
+}
+
+
