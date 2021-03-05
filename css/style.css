@@ -148,6 +148,12 @@ form {
     font-size: 1em;
 }
 
+#filter li a:hover {
+    text-decoration: none;
+    padding: 0px;
+    color: #9fc4fb;
+}
+
 .txt {
     position: relative;
     border: 1.5px solid #f2f2f2;
