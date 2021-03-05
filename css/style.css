@@ -397,4 +397,44 @@ aside .review {
 	border-radius: 20px 20px 0 0;
 }
 
+/******* FOOTER *******/
+
+footer {
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	background-color: #F2F2F2;
+	
+}
+
+
+.footerMenu {
+	display: flex;
+	flex-direction: column;
+	font-size: 0.6em;
+	margin: 30px 0px 20px 0px;
+	width: 30%;
+    padding-left: 40px;
+}
+
+.footerMenu h2 {
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-left: 0px;
+	 
+}
+
+.footerMenu ul {
+	text-decoration: none;
+	list-style: none;
+	padding-left: 0;
+	
+}
+
+
+.footerMenu li {
+	border-style: none;
+	padding-bottom: 5px; 
+
+}
 
