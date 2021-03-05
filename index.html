@@ -6,7 +6,7 @@
         <title>Projet 2 - Reservia</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css"
+        <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/76be60cae3.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -25,7 +25,58 @@
         </header>
 
         <!--MAIN-->
-        <main></main>
+        <main>
+            <section id="search">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+
+                <form>
+                    <p>
+                        <label for="searchbar" class="location">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </label>
+                        <input type="text" name="cities" value="Marseille, France" id="searchbar">
+                    </p>
+                    <input type="submit" value="Rechercher" id="searchsubmit">
+                </form>
+
+                <div id="filter">
+                    <h2>Filtres</h2>
+                    <ul>
+                        <li>
+                            <div class="txt">
+                                Économique
+                                <div class="ic"><i class="fas fa-money-bill-wave"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="txt">
+                                Familial
+                                <div class="ic"><i class="fas fa-child"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="txt">
+                                Romantique
+                                <div class="ic"><i class="fas fa-heart"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="txt">
+                                Animaux autorisés
+                                <div class="ic"><i class="fas fa-dog"></i></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="info">
+                    <div><i class="fas fa-info"></i></div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+            </section>
+
+        </main>
 
         <!--FOOTER-->
         <footer></footer>
