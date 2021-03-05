@@ -67,6 +67,8 @@ main {
     padding-top: 10px;
 }
 
+/******* SEARCH SECTION *******/
+
 #search {
     padding-left: 40px;
     margin-bottom: 30px;
@@ -111,11 +113,16 @@ form {
     color: #fff;
     height: 30px;
     padding: 0px 15px;
+    margin-top: 4px;
 }
 
 #filter {
     display: flex;
     align-items: center;
+}
+
+#filter h2 {
+    padding-left: 0px;
 }
 
 #filter ul {
@@ -173,4 +180,153 @@ form {
 
 #info p {
     padding-left: 10px;
+}
+
+/******* ACCOMMODATIONS SECTION *******/
+
+#accommodations {
+    display: flex;
+    align-items: flex-start;
+	padding-left: 40px;
+	padding-right: 40px;
+	justify-content: space-around;
+}
+
+#hosting {
+    display: flex;
+    flex-direction: column;
+	flex: 3;
+	background-color: #F2F2F2;	
+	border-radius: 20px;
+	padding: 25px 0px 10px 0px;
+}
+
+#hosting h1, h2 {
+    padding-left: 35px;
+	margin-top: 0px;
+}
+
+#hotels {
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0px 15px;
+}
+
+#hotels a:hover {
+    text-decoration: none;
+	border:none;
+	padding: 0px;
+	color: inherit;
+	opacity: 0.7;
+}
+
+article {
+    background-color: white;
+	border: 3px solid white;
+	border-radius: 20px;
+	box-shadow: 3px 3px 10px #ccc;
+	margin-bottom: 25px;
+	width: 220px;
+}
+
+article h2, p {
+    padding: 0 0 0 10px;
+	margin: 5px 0 0 0;
+}
+
+figure {
+    width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+figure img {
+    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px 20px 0 0;
+}
+
+.review {
+    display: flex;
+    padding: 6px 0 10px 10px;
+}
+
+.fa-star {
+    color: #0065FC;
+	font-size: 0.6em;
+}
+
+.grey {
+    color: #F2F2F2;
+}
+
+/******* ASIDE *******/
+
+aside {
+    display: flex;
+	flex-direction: column;
+	flex: 1.2;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	padding: 10px 25px;
+	margin-left: 30px;
+}
+
+#title {
+    display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+#popular {
+    display: flex;
+	flex-direction: column;
+}
+
+#popular a:hover {
+    text-decoration: none;
+	border:none;
+	padding: 0px;
+	color: inherit;
+	opacity: 0.7;
+}
+
+aside article {
+    display: flex;
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 20px;
+	box-shadow: 3px 3px 10px #ccc;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 109px;
+}
+
+aside figure {
+    width: 110px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+aside figure img {
+    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px 0 0 20px;
+}
+
+aside .review {
+    display: flex;
+	padding: 55px 0 0 10px;
+}
+
+.description {
+    display: flex;
+	flex-direction: column;
 }
