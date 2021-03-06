@@ -30,10 +30,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    height: 60px;
 }
 
-#logo {
-    padding: 10px 0 0 40px;
+header img {
+    height: 65%;
+    width: auto;
+    padding-left: 40px;
 }
 
 nav {
@@ -60,9 +63,15 @@ a:hover {
     border-top: 1.5px solid;
 }
 
-.blue {
-    color: #0065FC;
-    font-weight: bold;
+nav li:last-child a {
+	color: #0065FC;
+	font-weight: bold;
+}
+
+nav li:last-child a:hover {
+	padding-top: 30px;
+	color: #0065FC;
+	border-top: 1.5px solid;
 }
 
 /******* MAIN *******/
