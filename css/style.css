@@ -10,11 +10,16 @@ h1 {
 }
 
 h2 {
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: bold;
 }
 
 h3 {
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+h4 {
 	font-size: 0.6em;
 	font-weight: bold;
 }
@@ -135,7 +140,7 @@ label {
     align-items: baseline;
 }
 
-#filter h2 {
+#filter h3 {
     padding-left: 0px;
 }
 
@@ -222,7 +227,7 @@ label {
 	padding: 25px 0px 10px 0px;
 }
 
-#hosting h1, h2 {
+#hosting h2, h3 {
     padding-left: 35px;
 	margin-top: 0px;
 }
@@ -253,7 +258,7 @@ article {
 	width: 220px;
 }
 
-article h2, p {
+article h4, p {
     padding: 0 0 0 10px;
 	margin: 5px 0 0 0;
 }
@@ -366,10 +371,9 @@ aside .review {
 	margin-bottom: 30px;
 }
 
-#places h3 {
+#places h4 {
 	padding-left: 15px;
 	padding-top: 10px;
-	font-weight: bold;
 }
 
 #places a:hover {
@@ -490,37 +494,29 @@ footer {
 	display: flex;
 	align-items: flex-start;
 	background-color: #F2F2F2;
-	
 }
-
 
 .footerMenu {
 	display: flex;
 	flex-direction: column;
-	font-size: 0.6em;
 	margin: 30px 0px 20px 0px;
 	width: 30%;
     padding-left: 40px;
 }
 
-.footerMenu h2 {
-	font-size: 1.1em;
-	font-weight: bold;
+.footerMenu h3 {
 	padding-left: 0px;
-	 
 }
 
 .footerMenu ul {
 	text-decoration: none;
 	list-style: none;
 	padding-left: 0;
-	
+    font-size: 0.6em;
 }
-
 
 .footerMenu li {
 	border-style: none;
 	padding-bottom: 5px; 
-
 }
 
