@@ -629,19 +629,77 @@ footer {
     padding-bottom: 10px;
   }
 
+  /**Main**/
+
   main {
     width: auto;
+    margin: 60px 0 0 0;
+  }
+
+  #search {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  #search p {
+    padding-top: 0;
+  }
+
+  form {
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  #searchbar {
+    position: relative;
+    padding: 7px 0 8px 8px;
+    font-size: 1.2em;
+  }
+
+  form span {
+    display: block;
+    position: absolute;
+    left: 200px;
+    width: 20px;
+    height: 23px;
+    background-color: #0065fc;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.7em;
+    color: #fff;
+    padding: 10px 2px 0 10px;
+  }
+
+  #searchsubmit {
+    display: none;
   }
 
   #filter {
-    width: auto;
-    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #filter h3 {
+    padding-bottom: 0;
+    margin: 10px 0;
   }
 
   #filter ul {
+    flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: flex-start;
-    padding-left: 0px;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  #filter ul li {
+    margin: 0 10px 10px 0;
+  }
+
+  .ic {
+    top: -1px;
+  }
+
+  #info {
+    margin-top: 5px;
   }
 
   #accommodations {
