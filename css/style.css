@@ -753,81 +753,52 @@ footer {
     height: 110px;
   }
 
-  #activities {
-    width: auto;
-    justify-content: center;
-  }
-
-  .bigimage {
-    width: auto;
-    height: 100px;
-  }
-
-  .bigimage img {
-    width: 100%;
-    height: 80px;
-  }
-
-  .nature {
-    width: auto;
-    height: 200px;
-  }
-
-  .fort {
-    width: 100%;
-    height: 100px;
-  }
-
-  .fort img {
-    width: 100%;
-    height: 80px;
-  }
-
-  .island {
-    width: 100%;
-    height: 100px;
-  }
-
-  .island img {
-    width: 100%;
-    height: 80px;
-  }
-
-  .city {
-    width: auto;
-    height: 200px;
-  }
-
-  .church {
-    width: 100%;
-    height: 100px;
-  }
-
-  .church img {
-    width: 100%;
-    height: 80px;
-  }
-
-  .parc {
-    width: 100%;
-    height: 100px;
-  }
-
-  .parc img {
-    width: 100%;
-    height: 80px;
-  }
-
-  aside {
-    width: auto;
-  }
+  /**Activities**/
 
   #activities {
-    width: auto;
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  #activities h2 {
+    padding-left: 25px;
+    margin-top: 10px;
   }
 
   #places {
     flex-direction: column;
+    margin: 0 0 30px 25px;
+    padding: 0;
+  }
+
+  .bigimage,
+  .national {
+    width: 92%;
+    height: 200px;
+    margin: 0 0 25px 0;
+  }
+
+  .bigimage img,
+  .fort img,
+  .island img,
+  .national img,
+  .church img,
+  .parc img {
+    height: 150px;
+  }
+
+  .nature,
+  .city {
+    margin-right: 0;
+  }
+
+  .fort,
+  .island,
+  .church,
+  .parc {
+    width: 92%;
+    height: 200px;
+    margin-bottom: 25px;
   }
 
   footer {
