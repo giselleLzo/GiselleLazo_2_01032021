@@ -801,9 +801,29 @@ footer {
     margin-bottom: 25px;
   }
 
+  /**Footer**/
+
   footer {
     width: auto;
+    height: auto;
     flex-direction: column;
-    margin: 0px;
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  .footerMenu {
+    width: 90%;
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+  }
+
+  .footerMenu ul {
+    font-size: 0.7em;
+    margin: 0;
+    padding: 0 0 10px 0;
+  }
+
+  .footerMenu li {
+    padding-bottom: 5px;
   }
 }
