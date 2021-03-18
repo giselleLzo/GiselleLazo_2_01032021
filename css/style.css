@@ -609,8 +609,9 @@ footer {
   }
 
   header img {
-    padding: 20px 0 20px 20px;
     position: relative;
+    height: auto;
+    padding: 20px 0 20px 20px;
   }
 
   nav li:last-child {
@@ -728,12 +729,12 @@ footer {
   #hosting {
     background-color: white;
     padding-top: 30px;
-    padding-left: 25px;
+    padding-left: 0;
   }
 
   #hosting h2,
   h3 {
-    padding: 0;
+    padding: 0 0 0 25px;
   }
 
   #hotels {
@@ -743,10 +744,10 @@ footer {
   }
 
   #hotels article {
-    width: 90%;
+    width: 300px;
     height: 170px;
-    margin-bottom: 20px;
-    padding-bottom: 5px;
+    margin: 0 0 20px 0;
+    padding: 0 0 5px 0;
   }
 
   figure {
