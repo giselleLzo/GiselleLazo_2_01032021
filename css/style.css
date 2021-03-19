@@ -398,7 +398,7 @@ aside .review {
   opacity: 0.7;
 }
 
-.bigimage {
+.port {
   display: flex;
   flex-direction: column;
   width: 280px;
@@ -408,7 +408,7 @@ aside .review {
   box-shadow: 3px 3px 10px #ccc;
 }
 
-.bigimage img {
+.port img {
   object-fit: cover;
   width: 100%;
   height: 390px;
@@ -772,14 +772,14 @@ footer {
     padding: 0;
   }
 
-  .bigimage,
+  .port,
   .national {
     width: 92%;
     height: 200px;
     margin: 0 0 25px 0;
   }
 
-  .bigimage img,
+  .port img,
   .fort img,
   .island img,
   .national img,
@@ -955,11 +955,11 @@ footer {
     align-items: flex-start;
   }
 
-  .bigimage {
+  .port {
     width: 260px;
   }
 
-  .bigimage img {
+  .port img {
     height: 367px;
   }
 
