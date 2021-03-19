@@ -931,4 +931,16 @@ footer {
   aside .review {
     top: 50px;
   }
+
+  /**Hosting**/
+
+  #hosting {
+    background-color: white;
+    padding-top: 30px;
+  }
+
+  #hosting h2,
+  h3 {
+    padding-left: 40px;
+  }
 }
