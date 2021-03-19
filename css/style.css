@@ -886,4 +886,49 @@ footer {
   #filter ul li {
     padding-bottom: 10px;
   }
+
+  /**Accommodations**/
+
+  #accommodations {
+    margin: 0;
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+
+  aside {
+    border-radius: 0;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #title {
+    padding: 0 20px;
+  }
+
+  #popular {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  aside article {
+    flex-direction: column;
+    width: 160px;
+    height: 150px;
+    border-radius: 10px;
+  }
+
+  aside figure {
+    width: 100%;
+    height: 80px;
+  }
+
+  aside figure img {
+    border-radius: 10px 10px 0 0;
+  }
+
+  aside .review {
+    top: 50px;
+  }
 }
