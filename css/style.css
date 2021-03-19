@@ -988,3 +988,13 @@ footer {
     margin-top: 20px;
   }
 }
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  /**Accommodations**/
+
+  #accommodations {
+    margin: 0;
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+}
