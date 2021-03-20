@@ -1044,7 +1044,7 @@ footer {
     flex-wrap: wrap;
   }
 
-  .bigimage {
+  .port {
     width: 350px;
     height: 98%;
   }
@@ -1060,7 +1060,7 @@ footer {
   }
 
   .national {
-    width: 350px;
+    width: 340px;
     height: 96%;
     margin-top: 10px;
   }
