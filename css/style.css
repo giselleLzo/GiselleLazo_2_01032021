@@ -1141,4 +1141,31 @@ footer {
   aside .review {
     top: 40px;
   }
+
+  /**Hosting**/
+
+  #hosting {
+    background-color: white;
+    padding-top: 30px;
+  }
+
+  #hosting h2,
+  h3 {
+    padding-left: 40px;
+    padding-top: 10px;
+  }
+
+  #hotels {
+    width: 90%;
+    margin: auto;
+    padding: 0 37px;
+  }
+  #hotels article {
+    width: 270px;
+    height: 170px;
+  }
+
+  figure {
+    height: 110px;
+  }
 }
