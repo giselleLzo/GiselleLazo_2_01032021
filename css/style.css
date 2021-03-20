@@ -1206,3 +1206,29 @@ footer {
     margin-top: 10px;
   }
 }
+
+/**1440 QUERIES**/
+@media all and (min-width: 1361px) {
+  /**Hosting**/
+
+  #hotels {
+    width: 80%;
+    margin: auto;
+    padding: 0 37px;
+  }
+
+  #hosting h2 {
+    padding: 35px 0 20px 110px;
+    margin: 0;
+  }
+
+  #hosting h3 {
+    padding: 0 0 35px 110px;
+    margin: 0;
+  }
+
+  #hotels article {
+    width: 190px;
+    margin: 0 15px 25px 15px;
+  }
+}
