@@ -989,6 +989,8 @@ footer {
   }
 }
 
+/**MEDIUM DEVICES**/
+
 @media all and (min-width: 769px) and (max-width: 992px) {
   /**Accommodations**/
 
@@ -1091,5 +1093,16 @@ footer {
     width: 350px;
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+}
+
+/**LARGE DEVICES**/
+@media all and (min-width: 993px) and (max-width: 1200px) {
+  /**Accommodations**/
+
+  #accommodations {
+    margin: 0;
+    padding: 0;
+    flex-direction: column-reverse;
   }
 }
