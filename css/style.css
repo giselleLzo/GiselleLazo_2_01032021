@@ -1033,4 +1033,41 @@ footer {
   aside .review {
     top: 40px;
   }
+
+  /**Activities**/
+
+  #activities h2 {
+    margin-top: 30px;
+  }
+
+  #places {
+    flex-wrap: wrap;
+  }
+
+  .bigimage {
+    width: 350px;
+    height: 98%;
+  }
+
+  .fort {
+    width: 350px;
+    margin-bottom: 20px;
+  }
+
+  .island,
+  .parc {
+    width: 350px;
+  }
+
+  .national {
+    width: 350px;
+    height: 96%;
+    margin-top: 10px;
+  }
+
+  .church {
+    width: 350px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
 }
