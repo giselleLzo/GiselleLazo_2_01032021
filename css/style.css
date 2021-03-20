@@ -47,32 +47,29 @@ nav {
 nav ul {
   display: flex;
   list-style-type: none;
+  padding-left: 0;
 }
 
 nav li {
-  margin-right: 40px;
+  margin-right: 18px;
+  text-align: center;
 }
 
 a {
   color: #000;
   text-decoration: none;
+  padding: 0 17px;
 }
 
 a:hover {
   padding-top: 30px;
   color: #0065fc;
-  border-top: 1.5px solid;
+  border-top: 2px solid;
 }
 
 nav li:last-child a {
   color: #0065fc;
   font-weight: bold;
-}
-
-nav li:last-child a:hover {
-  padding-top: 30px;
-  color: #0065fc;
-  border-top: 1.5px solid;
 }
 
 /******* MAIN *******/
@@ -157,6 +154,11 @@ form span {
   font-size: 1em;
 }
 
+#filter li a {
+  padding: 0;
+  border: 0;
+}
+
 #filter li a:hover {
   text-decoration: none;
   color: #0065fc;
@@ -235,6 +237,10 @@ h3 {
   justify-content: space-around;
   align-items: center;
   padding: 0 15px;
+}
+
+#hotels a {
+  padding: 0;
 }
 
 #hotels a:hover {
@@ -319,6 +325,10 @@ aside {
   padding: 0 20px;
 }
 
+#popular a {
+  padding: 0;
+}
+
 #popular a:hover {
   text-decoration: none;
   border: none;
@@ -388,6 +398,10 @@ aside .review {
 #places h4 {
   padding-left: 15px;
   padding-top: 5px;
+}
+
+#places a {
+  padding: 0;
 }
 
 #places a:hover {
