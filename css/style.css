@@ -1034,6 +1034,28 @@ footer {
     top: 40px;
   }
 
+  /**Hosting**/
+
+  #hosting {
+    background-color: white;
+    padding-top: 30px;
+  }
+
+  #hosting h2,
+  h3 {
+    padding-left: 40px;
+  }
+
+  #hotels {
+    width: 90%;
+    margin: auto;
+    padding: 0 37px;
+  }
+
+  #hotels article {
+    width: 218px;
+  }
+
   /**Activities**/
 
   #activities h2 {
