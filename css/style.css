@@ -564,7 +564,7 @@ footer {
 
 /******* MEDIA QUERIES *******/
 
-/**MOBILE**/
+/**X-SMALL DEVICES -MOBILE**/
 
 @media all and (max-width: 576px) {
   h1 {
@@ -847,7 +847,7 @@ footer {
   }
 }
 
-/**TABLETTE**/
+/**SMALL DEVICES -TABLET**/
 @media all and (min-width: 577px) and (max-width: 768px) {
   header {
     width: auto;
