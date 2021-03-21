@@ -1195,7 +1195,11 @@ footer {
 
   .port {
     width: 450px;
-    height: 98%;
+    height: 100%;
+  }
+
+  .port img {
+    height: 368px;
   }
 
   .fort {
@@ -1210,14 +1214,18 @@ footer {
 
   .national {
     width: 450px;
-    height: 96%;
-    margin-top: 10px;
+    height: 95%;
+    margin-top: 20px;
+  }
+
+  .national img {
+    height: 369px;
   }
 
   .church {
     width: 450px;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 
