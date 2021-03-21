@@ -786,6 +786,10 @@ footer {
     padding: 0;
   }
 
+  #places h4 {
+    padding-top: 0;
+  }
+
   .port,
   .national {
     width: 92%;
