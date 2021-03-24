@@ -412,7 +412,8 @@ aside .review {
   opacity: 0.7;
 }
 
-.port {
+.port,
+.national {
   display: flex;
   flex-direction: column;
   width: 280px;
@@ -422,14 +423,16 @@ aside .review {
   box-shadow: 3px 3px 10px #ccc;
 }
 
-.port img {
+.port img,
+.national img {
   object-fit: cover;
   width: 100%;
   height: 390px;
   border-radius: 20px 20px 0 0;
 }
 
-.nature {
+.nature,
+.city {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -468,29 +471,6 @@ aside .review {
   width: 100%;
   height: 110px;
   border-radius: 20px 20px 0 0;
-}
-
-.national {
-  display: flex;
-  flex-direction: column;
-  width: 280px;
-  height: 100%;
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 3px 3px 10px #ccc;
-}
-
-.national img {
-  object-fit: cover;
-  width: 100%;
-  height: 390px;
-  border-radius: 20px 20px 0 0;
-}
-
-.city {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 .church {
